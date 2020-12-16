@@ -65,7 +65,7 @@ def train_valid_split(X, y):
 # Set up the model structure
 def build_model():
     model = Sequential()
-    model.add(Conv2D(filters=16, kernel_size=(8, 8), activation="relu", input_shape=(200, 200, 3)))
+    model.add(Conv2D(filters=16, kernel_size=(8, 8), activation="relu", input_shape=(178, 178, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.25))
     model.add(Conv2D(filters=32, kernel_size=(8, 8), activation='relu'))
