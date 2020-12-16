@@ -1,4 +1,3 @@
-
 from A1 import taska
 from B1 import taskb
 
@@ -6,7 +5,7 @@ from B1 import taskb
 label_path_a = './Datasets/celeba/labels.csv'
 test_label_path_a = './Datasets/celeba_test/labels.csv'
 data_path_a = './Datasets/celeba/img/'
-test_data_path_a = './Datasets/celeba_test/img'
+test_data_path_a = './Datasets/celeba_test/img/'
 model_path_a1 = './A1/a1.h5'
 model_path_a2 = './A2/a2.h5'
 
@@ -14,7 +13,7 @@ model_path_a2 = './A2/a2.h5'
 label_path_b = './Datasets/cartoon_set/labels.csv'
 test_label_path_b = './Datasets/cartoon_set_test/labels.csv'
 data_path_b = './Datasets/cartoon_set/img/'
-test_data_path_b = './Datasets/cartoon_set_test/img'
+test_data_path_b = './Datasets/cartoon_set_test/img/'
 model_path_b1 = './B1/b1.h5'
 model_path_b2 = './B2/b2.h5'
 # ======================================================================================================================
